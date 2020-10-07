@@ -14,6 +14,8 @@
   "author": "Venkat Gopireddy",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
     "webpack": "1.13.1"
   },
   "dependencies": {

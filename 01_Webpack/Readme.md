@@ -1,6 +1,7 @@
 # Webpack
 
-- Installing Webpack
+- Webpack
+  - Installing Webpack
   - `https://webpack.github.io/`
   - `https://www.npmjs.com/`
     - Type `webpack` in the search bar will navigate to `https://www.npmjs.com/package/webpack`
@@ -9,20 +10,25 @@
     - `npm init`
   - Installing Webpack
     - devDependencies
-      - `npm install webpack --save-dev`
+    - `npm install webpack --save-dev`
     - dependencies
-      - `npm install jquery`
+    - `npm install jquery`
     ```
     devDependencies are everything we need in development,
         things like testing frameworks and transpiling frameworks like webpack.
     dependencies are everything we need for the browser,
         things like jquery, things like react, so that our users will actually need.
     ```
-- Running the webpack build
+  - Running the webpack build
   - `webpack main.js ./bundle.js` : if the webpack command is not found run the below
   - `./node_modules/.bin/webpack main.js ./bundle.js`
-- Understanding the webpack.config file
+  - Understanding the webpack.config file
   - Creating the `webpack.config.js file`
     - Run the command in the terminal: `./node_modules/.bin/webpack`
     - Adding `src` and `build` directory to the path
     - Run the command in the terminal to watch and read the bundle: `./node_modules/.bin/webpack -w`
+- Webpack loaders
+  - `https://webpack.js.org/loaders/remark-loader/#usage`
+  - Setting up a babel-loader for a React or ES6 Project
+    - `npm install babel-loader@6 babel-core@6 --save-dev`
+    - Run the command to execute: `./node_modules/.bin/webpack`
