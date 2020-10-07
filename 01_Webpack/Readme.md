@@ -35,3 +35,6 @@
   - Using presets
     - `https://github.com/tc39/ecma262`
     - `npm install babel-preset-es2015 babel-preset-react --save-dev`
+  - Setting up coffee-loader for CoffeeScript projects
+    - `https://webpack.js.org/concepts/modules/#supported-module-types`
+    - `npm install coffee-loader coffee-script --save-dev`
