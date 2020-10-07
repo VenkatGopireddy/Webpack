@@ -7,3 +7,14 @@
     - Prerequisite: `Node JS` to be installed `https://nodejs.org/en/`
   - Creating Package.json file
     - `npm init`
+  - Installing Webpack
+    - devDependencies
+        - `npm install webpack --save-dev`
+    - dependencies
+        - `npm install jquery`
+    ```
+    devDependencies are everything we need in development, 
+        things like testing frameworks and transpiling frameworks like webpack. 
+    dependencies are everything we need for the browser, 
+        things like jquery, things like react, so that our users will actually need. 
+    ```

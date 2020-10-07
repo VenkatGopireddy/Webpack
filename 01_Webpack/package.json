@@ -12,5 +12,11 @@
     "es6"
   ],
   "author": "Venkat Gopireddy",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.2"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
