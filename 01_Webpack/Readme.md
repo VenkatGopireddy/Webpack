@@ -22,4 +22,6 @@
   - `webpack main.js ./bundle.js` : if the webpack command is not found run the below
   - `./node_modules/.bin/webpack main.js ./bundle.js`
 - Understanding the webpack.config file
-  - Run the command in the terminal: `./node_modules/.bin/webpack`
+  - Creating the `webpack.config.js file`
+    - Run the command in the terminal: `./node_modules/.bin/webpack`
+    - Adding `src` and `build` directory to the path
