@@ -1,2 +1,2 @@
 var $ = require('jquery');
-$('target').html('hello world');
+$('#target').html('Hello world');

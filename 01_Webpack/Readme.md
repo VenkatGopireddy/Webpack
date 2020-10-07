@@ -25,3 +25,4 @@
   - Creating the `webpack.config.js file`
     - Run the command in the terminal: `./node_modules/.bin/webpack`
     - Adding `src` and `build` directory to the path
+    - Run the command in the terminal to watch and read the bundle: `./node_modules/.bin/webpack -w`
