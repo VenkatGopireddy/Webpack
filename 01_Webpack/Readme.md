@@ -9,12 +9,15 @@
     - `npm init`
   - Installing Webpack
     - devDependencies
-        - `npm install webpack --save-dev`
+      - `npm install webpack --save-dev`
     - dependencies
-        - `npm install jquery`
+      - `npm install jquery`
     ```
-    devDependencies are everything we need in development, 
-        things like testing frameworks and transpiling frameworks like webpack. 
-    dependencies are everything we need for the browser, 
-        things like jquery, things like react, so that our users will actually need. 
+    devDependencies are everything we need in development,
+        things like testing frameworks and transpiling frameworks like webpack.
+    dependencies are everything we need for the browser,
+        things like jquery, things like react, so that our users will actually need.
     ```
+- Running the webpack build
+  - `webpack main.js ./bundle.js` : if the webpack command is not found run the below
+  - `./node_modules/.bin/webpack main.js ./bundle.js`
