@@ -21,3 +21,5 @@
 - Running the webpack build
   - `webpack main.js ./bundle.js` : if the webpack command is not found run the below
   - `./node_modules/.bin/webpack main.js ./bundle.js`
+- Understanding the webpack.config file
+  - Run the command in the terminal: `./node_modules/.bin/webpack`
