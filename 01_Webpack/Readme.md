@@ -32,3 +32,6 @@
   - Setting up a babel-loader for a React or ES6 Project
     - `npm install babel-loader@6 babel-core@6 --save-dev`
     - Run the command to execute: `./node_modules/.bin/webpack`
+  - Using presets
+    - `https://github.com/tc39/ecma262`
+    - `npm install babel-preset-es2015 babel-preset-react --save-dev`
