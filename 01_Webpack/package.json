@@ -20,6 +20,8 @@
     "babel-preset-react": "^6.24.1",
     "coffee-loader": "0.7.0",
     "coffee-script": "1.10.0",
+    "css-loader": "0.23.1",
+    "style-loader": "0.13.1",
     "webpack": "1.13.1"
   },
   "dependencies": {

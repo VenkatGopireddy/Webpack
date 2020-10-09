@@ -39,7 +39,10 @@
     - `https://webpack.js.org/concepts/modules/#supported-module-types`
     - `npm install coffee-loader coffee-script --save-dev`
 - Webpack & CSS
-  - Why load css with webpack?
+  - Adding style with Webpack and with CSS loaders
     - Creating React Component
       - `npm install react react-dom --save`
+      - Run the webpack command: `./node_modules/.bin/webpack`
+    - Initializing the style & css loaders
+      - `npm install style-loader css-loader --save-dev`
       - Run the webpack command: `./node_modules/.bin/webpack`
