@@ -51,3 +51,6 @@
       - `npm install sass-loader node-sass --save-dev`
   - Loading images with Webpack
     - `npm install url-loader file-loader --save-dev`
+- Code Splitting with Webpack
+  - Adding multiple entry points
+  - Run the webpack command: `./node_modules/.bin/webpack`
