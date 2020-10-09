@@ -46,3 +46,6 @@
     - Initializing the style & css loaders
       - `npm install style-loader css-loader --save-dev`
       - Run the webpack command: `./node_modules/.bin/webpack`
+  - Transpiling Sass with Webpack
+    - Couple more peer dependencies
+      - `npm install sass-loader node-sass --save-dev`
