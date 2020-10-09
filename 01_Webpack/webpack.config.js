@@ -1,7 +1,7 @@
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: 'bundle',
+    path: 'build',
     filename: 'bundle.js',
   },
   module: {
@@ -17,6 +17,10 @@ module.exports = {
       {
         test: /\.scss$/,
         loader: 'style-loader!css-loader!sass-loader',
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url',
       },
     ],
   },

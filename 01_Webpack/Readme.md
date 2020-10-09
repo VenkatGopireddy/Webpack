@@ -49,3 +49,5 @@
   - Transpiling Sass with Webpack
     - Couple more peer dependencies
       - `npm install sass-loader node-sass --save-dev`
+  - Loading images with Webpack
+    - `npm install url-loader file-loader --save-dev`
