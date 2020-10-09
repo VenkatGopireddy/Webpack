@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './main.coffee',
+  entry: './src/main.js',
   output: {
     path: 'bundle',
     filename: 'bundle.js',
@@ -7,9 +7,12 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.coffee$/,
+        test: /\.js$/,
         exclude: /(node_modules)/,
-        loader: 'coffee',
+        loader: 'babel',
+        query: {
+          presets: ['react', 'es2015'],
+        },
       },
     ],
   },
