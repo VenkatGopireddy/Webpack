@@ -55,3 +55,6 @@
   - Adding multiple entry points
     - Run the webpack command: `./node_modules/.bin/webpack`
   - Using the commons chunk bundle
+    - Run the webpack command: `./node_modules/.bin/webpack`
+  - Bundling vendor files
+    - Run the webpack command: `./node_modules/.bin/webpack`

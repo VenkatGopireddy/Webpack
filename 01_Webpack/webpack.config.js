@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     about: './dist/about',
     contact: './dist/contact',
+    vendor: ['react', 'react-dom'],
   },
   output: {
     path: path.join(__dirname, 'build'),
@@ -31,5 +32,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [new CommonsChunkPlugin('commons', 'commons.bundle.js')],
+  plugins: [new CommonsChunkPlugin('vendor', 'vendor.bundle.js')],
 };
