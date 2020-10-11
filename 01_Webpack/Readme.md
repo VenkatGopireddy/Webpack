@@ -53,4 +53,5 @@
     - `npm install url-loader file-loader --save-dev`
 - Code Splitting with Webpack
   - Adding multiple entry points
-  - Run the webpack command: `./node_modules/.bin/webpack`
+    - Run the webpack command: `./node_modules/.bin/webpack`
+  - Using the commons chunk bundle
